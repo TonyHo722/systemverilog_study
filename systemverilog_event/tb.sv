@@ -7,12 +7,15 @@ module tb;
     fork
       // Thread1: waits for event_a to be triggered
       begin
-        wait(event_a.triggered);
+        //tony_debug wait(event_a.triggered);
+        @(event_a);     //use @ to avoid iverilog compile error issue
+
         $display ("[%0t] Thread1: Wait for event_a is over", $time);
       end
   	  // Thread2: waits for event_b to be triggered
       begin
-        wait(event_b.triggered);
+        //tony_debug wait(event_b.triggered);
+        @(event_b);
         $display ("[%0t] Thread2: Wait for event_b is over", $time);
       end
 

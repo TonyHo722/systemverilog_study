@@ -1,6 +1,2 @@
-tb.sv:10: error: Unable to bind wire/reg/memory `event_a.triggered' in `tb'
-tb.sv:10: error: Unable to elaborate wait condition expression.
-tb.sv:15: error: Unable to bind wire/reg/memory `event_b.triggered' in `tb'
-tb.sv:15: error: Unable to elaborate wait condition expression.
-tb.sv:28: error: Could not find variable ``event_b'' in ``tb''
-5 error(s) during elaboration.
+tb.sv:32: error: Could not find variable ``event_b'' in ``tb''
+1 error(s) during elaboration.
