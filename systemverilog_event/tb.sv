@@ -28,7 +28,7 @@ module tb;
       // Thread5: Assigns event_b to event_a at 10ns
       begin
         // Comment code below and try again to see Thread2 finish later
-        #10 event_b = event_a;
+        //#10 event_b = event_a;
       end
     join
   end

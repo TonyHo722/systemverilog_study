@@ -1,2 +1,0 @@
-tb.sv:32: error: Could not find variable ``event_b'' in ``tb''
-1 error(s) during elaboration.
