@@ -1,0 +1,4 @@
+#!/bin/bash
+
+iverilog -g2012 -o tb.vvp tb.sv 2>&1 | tee iverilog.log
+
